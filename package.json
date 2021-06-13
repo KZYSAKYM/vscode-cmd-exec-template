@@ -16,8 +16,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "cmd-executor.helloWorld",
-        "title": "Hello World"
+        "command": "cmd-executor.echo-helloworld",
+        "title": "EchoHelloWorld"
+      },
+      {
+        "command": "cmd-executor.tree-root",
+        "title": "TreeRoot"
+      },
+      {
+        "command": "cmd-executor.tree-grep-node",
+        "title": "TreeGrepNode"
       }
     ]
   },
